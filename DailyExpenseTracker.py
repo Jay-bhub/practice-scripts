@@ -17,7 +17,6 @@ while not con:
     choice = input()
 
     if choice == "5":
-        con = False
         break
     elif choice == "1":
         entry = float(input())
