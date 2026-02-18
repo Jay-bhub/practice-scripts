@@ -2,9 +2,6 @@ from pathlib import Path
 import datetime
 import zipfile
 
-timestamp = datetime.datetime.now().strftime("%Y-%M-%D")
-archive_name = f'Archive{timestamp}.zip'
-
 paths = [
     # Enter paths to compress
     
